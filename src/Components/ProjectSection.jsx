@@ -16,17 +16,25 @@ const ProjectSection = () => {
       tech: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Chart.js"],
     },
     {
-      id: 2,
-      title: "Crypto Dashboard",
-      subtitle: "Live analytics & investment insights",
+      id: 3,
+      title: "Vertex",
+      subtitle: "Stock trading & market insights platform",
       description:
-        "A dynamic crypto dashboard providing real-time market data, price tracking, and insightful visualizations.",
+        "A full-stack stock trading and insights platform offering real-time market updates, personalized watchlists, curated financial news, and AI-powered stock analysis.",
       keyPoints: [
-        "Live crypto data via public APIs",
-        "Interactive visualizations using Chart.js",
-        "Built with React & Tailwind CSS",
+        "Real-time market data integration with secure buy/sell functionality",
+        "Personalized watchlists and curated financial news feed",
+        "AI-powered assistant for stock analysis and learning",
       ],
-      tech: ["React", "Chart.js", "Tailwind CSS", "REST API"],
+      tech: [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "REST API",
+        "WebSockets",
+      ],
     },
     {
       id: 3,
