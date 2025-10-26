@@ -16,26 +16,20 @@ const ProjectSection = () => {
       tech: ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "Chart.js"],
     },
     {
-      id: 3,
-      title: "Vertex",
-      subtitle: "Stock trading & market insights platform",
+      id: 2,
+      title: "ConnectHub",
+      subtitle: "Professional networking and collaboration platform",
       description:
-        "A full-stack stock trading and insights platform offering real-time market updates, personalized watchlists, curated financial news, and AI-powered stock analysis.",
+        "A full-stack professional networking platform inspired by LinkedIn, enabling users to connect, share posts, and grow their network with real-time interactions and secure authentication.",
       keyPoints: [
-        "Real-time market data integration with secure buy/sell functionality",
-        "Personalized watchlists and curated financial news feed",
-        "AI-powered assistant for stock analysis and learning",
+        "Built scalable RESTful APIs using Spring Boot for user, post, and connection management",
+        "Implemented Google OAuth and JWT-based authentication for secure, seamless access",
+        "Integrated MySQL for relational data storage and containerized the application using Docker",
+        "Designed modular architecture enabling easy scalability and microservice adoption",
       ],
-      tech: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "Tailwind CSS",
-        "REST API",
-        "WebSockets",
-      ],
+      tech: ["Java", "Spring Boot", "REST API", "MySQL", "Docker"],
     },
+
     {
       id: 3,
       title: "Shriniketan",

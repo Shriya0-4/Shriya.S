@@ -1,5 +1,8 @@
 const AboutSection = () => {
   const skills = [
+    { name: "Java", icon: "☕" },
+    { name: "Python", icon: "🐍" },
+    { name: "JavaScript", icon: "💻" },
     { name: "React & Tailwind", icon: "⚛️" },
     { name: "Node.js & Express", icon: "🚀" },
     { name: "MongoDB & Mongoose", icon: "🍃" },
@@ -48,7 +51,9 @@ const AboutSection = () => {
           </div>
 
           <div className="space-y-6 md:space-y-8">
-            <h3 className="text-xl md:text-2xl font-bold text-stone-800">Skills</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-stone-800">
+              Skills
+            </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4 md:gap-6">
               {skills.map((skill) => (
                 <div key={skill.name} className="group relative">
